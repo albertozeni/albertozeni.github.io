@@ -5,6 +5,14 @@
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="">
+<meta name="msvalidate.01" content="">
+<!-- Avoid warning on Google Chrome
+        Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+        see https://stackoverflow.com/a/75119417
+    -->
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
@@ -71,10 +79,6 @@
                 <a class="nav-link" href="/">about</a>
               </li>
               
-              <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
-              </li>
 
               <!-- Other pages -->
               <li class="nav-item active">
@@ -198,7 +202,7 @@
         <div class="author">
         
 
-        Emanuele Del Sozzo, Davide Conficconi, Alberto Zeni, and
+        Emanuele Del Sozzo, Davide Conficconi, <em>Alberto Zeni</em>, and
           <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -249,7 +253,7 @@
         <div class="author">
         
 
-        Beatrice Branchini, Sofia Breschi, Alberto Zeni, and
+        Beatrice Branchini, Sofia Breschi, <em>Alberto Zeni</em>, and
           <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -406,7 +410,7 @@
         <div class="author">
         
 
-        Alberto Zeni, Guido Walter Di Donato, Lorenzo Di Tucci, and
+        <em>Alberto Zeni</em>, Guido Walter Di Donato, Lorenzo Di Tucci, and
           <span class="more-authors" title="click to view 2 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -457,7 +461,7 @@
         <div class="author">
         
 
-        Alberto Zeni, Kenneth O’Brien, Michaela Blott, and
+        <em>Alberto Zeni</em>, Kenneth O’Brien, Michaela Blott, and
           <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -512,7 +516,7 @@
         <div class="author">
         
 
-        Guido Walter Di Donato, Alberto Zeni, Lorenzo Di Tucci, and
+        Guido Walter Di Donato, <em>Alberto Zeni</em>, Lorenzo Di Tucci, and
           <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -563,7 +567,7 @@
         <div class="author">
         
 
-        Alberto Zeni, Giulia Guidi, Marquita Ellis, and
+        <em>Alberto Zeni</em>, Giulia Guidi, Marquita Ellis, and
           <span class="more-authors" title="click to view 6 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -669,7 +673,7 @@
         <div class="author">
         
 
-        Giulia Guidi, Alberto Zeni, and  others</div>
+        Giulia Guidi, <em>Alberto Zeni</em>, and  others</div>
 
         <!-- Journal/Book title and date -->
         
@@ -707,7 +711,7 @@
         <div class="author">
         
 
-        Alberto Zeni, Matteo Crespi, Lorenzo Di Tucci, and
+        <em>Alberto Zeni</em>, Matteo Crespi, Lorenzo Di Tucci, and
           <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -758,7 +762,7 @@
         <div class="author">
         
 
-        Alberto Zeni, Francesco Peverelli, Enrico Cabri, and
+        <em>Alberto Zeni</em>, Francesco Peverelli, Enrico Cabri, and
           <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -887,7 +891,14 @@
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
   <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '');
+  </script>
     
 
 <!-- Scrolling Progress Bar -->

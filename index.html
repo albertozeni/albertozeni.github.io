@@ -5,6 +5,14 @@
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
+    <!-- Website verification -->
+    <meta name="google-site-verification" content="">
+<meta name="msvalidate.01" content="">
+<!-- Avoid warning on Google Chrome
+        Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+        see https://stackoverflow.com/a/75119417
+    -->
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
@@ -72,10 +80,6 @@
                 <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
               </li>
               
-              <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
-              </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
@@ -157,15 +161,17 @@
           </div>
 
           <div class="clearfix">
-            <p>I am currently a Ph.D. Student at NECSTLab and a visiting Ph.D. student at MIT, working in the Genome
-Analysis Field. My research concentrates on the development and acceleration of genome analysis
-algorithms. I focus on analyzing current bottlenecks in various genome pipelines and developing
-new solutions that can reduce the time required for the analysis. To this end, I am developing
-solutions on FPGA or GPU architectures, depending on which is most suited for the task, and
-providing drop-in replacements for state-of-the-art software solutions. My doctorate aims to provide
-a fully hardware-accelerated genomic pipeline exploiting the best heterogeneous architecture for
-every step, enabling the analysis of genomes order of magnitudes faster with respect to the available
-software solutions.</p>
+            <p>I am currently a Ph.D. <a href="https://www.polimi.it/" rel="external nofollow noopener" target="_blank">Student at Politecnico di Milano</a> at <a href="https://necst.it/" rel="external nofollow noopener" target="_blank">NECSTLab</a> working on Genome Analysis and High Performance Computing.</p>
+
+<p>My research concentrates on the development and acceleration of genome analysis algorithms. 
+I focus on analyzing current bottlenecks in various genome pipelines and developing new solutions that can reduce the time required for the analysis. 
+To this end, I am developing solutions on FPGA or GPU architectures, depending on which is most suited for the task, and providing drop-in replacements for state-of-the-art software solutions.</p>
+
+<p>My doctorate aims to provide a fully hardware-accelerated genomic pipeline exploiting the best heterogeneous architecture for every step, enabling the analysis of genomes order of magnitudes faster with respect to the available software solutions.</p>
+
+<p>A recent <strong><a href="https://drive.google.com/file/d/1C7hanhxteAFYGRof6i-0_vI6FEXx5o1F/view?usp=sharing" rel="external nofollow noopener" target="_blank">CV</a></strong>.</p>
+
+<p>The best way to contact me is by <strong>email</strong>: alberto.zeni@polimi.it</p>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
@@ -215,19 +221,19 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                 <tr>
                   <th scope="row">Dec 10, 2022</th>
                   <td>
-                    <a class="news-title" href="/blog/2022/giscus-comments/">a post with giscus comments</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">Apr 23, 2022</th>
-                  <td>
-                    <a class="news-title" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
+                    <a class="news-title" href="/sample-posts/external-services/2022/12/10/giscus-comments.html">a post with giscus comments</a>
                   </td>
                 </tr>
                 <tr>
                   <th scope="row">Feb 1, 2022</th>
                   <td>
-                    <a class="news-title" href="/blog/2022/redirect/">a post with redirect</a>
+                    <a class="news-title" href="/2022/02/01/redirect.html">a post with redirect</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Jul 4, 2021</th>
+                  <td>
+                    <a class="news-title" href="/2021/07/04/diagrams.html">a post with diagrams</a>
                   </td>
                 </tr>
               </table>
@@ -310,7 +316,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
   <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '');
+  </script>
     
 
 <!-- Scrolling Progress Bar -->
