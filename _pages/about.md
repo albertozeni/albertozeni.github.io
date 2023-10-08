@@ -27,7 +27,7 @@ To this end, I am developing solutions on FPGA or GPU architectures, depending o
 
 My doctorate aims to provide a fully hardware-accelerated genomic pipeline exploiting the best heterogeneous architecture for every step, enabling the analysis of genomes order of magnitudes faster with respect to the available software solutions.
 
-A recent **[CV](https://drive.google.com/file/d/1C7hanhxteAFYGRof6i-0_vI6FEXx5o1F/view?usp=sharing)**.
+A recent **[CV](https://drive.google.com/file/d/1HWA1-lNXQZt20mrrF2YT3E19R8EbSl04/view?usp=sharing)**.
 
 The best way to contact me is by **email**: alberto.zeni@polimi.it
 
