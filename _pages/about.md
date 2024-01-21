@@ -19,15 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Ph.D. [Student at Politecnico di Milano](https://www.polimi.it/) at [NECSTLab](https://necst.it/) working on Genome Analysis and High Performance Computing. 
+I am currently a [Post-Doc at Politecnico di Milano](https://www.polimi.it/) at [NECSTLab](https://necst.it/) working on Genome Analysis and High Performance Computing. 
 
 My research concentrates on the development and acceleration of genome analysis algorithms. 
 I focus on analyzing current bottlenecks in various genome pipelines and developing new solutions that can reduce the time required for the analysis. 
 To this end, I am developing solutions on FPGA or GPU architectures, depending on which is most suited for the task, and providing drop-in replacements for state-of-the-art software solutions.
 
-My doctorate aims to provide a fully hardware-accelerated genomic pipeline exploiting the best heterogeneous architecture for every step, enabling the analysis of genomes order of magnitudes faster with respect to the available software solutions.
-
-A recent **[CV](https://drive.google.com/file/d/1iRK2zyWu0ZJKiKj_AVK63ZWzK793FOSs/view?usp=drive_link)**.
+A recent **[CV](https://drive.google.com/file/d/1WJLMEXtJG1YmowTJXgJu-8gEUum0ho8G/view?usp=sharing)**.
 
 The best way to contact me is by **email**: alberto.zeni@polimi.it
 
