@@ -9,9 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>NECSTLab</p>
-    <p>Via Ponzio 34-5</p>
-    <p>Milan, Milan 20133</p>
+    <p>Meta</p>
+    <p>Oslo, Norway</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,13 +18,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a [Post-Doc at Politecnico di Milano](https://www.polimi.it/) at [NECSTLab](https://necst.it/) working on Genome Analysis and High Performance Computing. 
+I am currently an AI/HPC Systems Research Scientist at [Meta](https://about.meta.com/) in Oslo, Norway, working on kernels, runtime, collectives, and infrastructure for the Meta Training and Inference Accelerator (MTIA) at data-center scale.
+Previously, I was a Computer Architect at [AMD](https://www.amd.com/), where I worked on the design, testing, and validation of the AMD NPU array architecture and was a founding member of the AMD -omics research group.
 
-My research concentrates on the development and acceleration of genome analysis algorithms. 
-I focus on analyzing current bottlenecks in various genome pipelines and developing new solutions that can reduce the time required for the analysis. 
-To this end, I am developing solutions on FPGA or GPU architectures, depending on which is most suited for the task, and providing drop-in replacements for state-of-the-art software solutions.
+I hold a Ph.D. in Information Technology and a B.Sc. and M.Sc. in Computer Science and Engineering, all from [Politecnico di Milano](https://www.polimi.it/).
+My research focuses on high-performance kernels and applications for FPGAs, GPUs, and AI accelerators, with a particular emphasis on genome analysis and, more recently, AI systems and infrastructure at data-center scale.
+I am also a Co-Founder of GenoGra, a startup delivering scalable, hardware-accelerated genomic analysis software. GenoGra won the StartCup Lombardia 2022 and Switch2Product 2022 competitions, the Chimica Verde Award 2024, and closed a €1M pre-seed round in 2025.
 
-A recent **[CV](https://drive.google.com/file/d/1WJLMEXtJG1YmowTJXgJu-8gEUum0ho8G/view?usp=sharing)**.
+A recent **[CV](/assets/pdf/cv.pdf)**.
 
 The best way to contact me is by **email**: alberto.zeni@polimi.it
 
